@@ -1,0 +1,8 @@
+# Commands for creation Of Pod 
+ kubectl get nodes
+ kubectl create -f mypod.yml
+ kubectl get pods
+ kubectl describe pods 
+ kubectl get pods -o wide 
+ kubectl get pods --all-namespaces
+ kubectl delete pod/hello-pod

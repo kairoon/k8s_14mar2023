@@ -1,0 +1,7 @@
+kubectl create -f mysvc.yml
+kubectl describe svc 
+kubectl get svc -o wide
+kubectl apply -f mysvc.yml
+kubectl get svc 
+kubectl delete svc/svcname
+
